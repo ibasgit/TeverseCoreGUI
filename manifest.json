@@ -1,0 +1,22 @@
+{
+    "schema": 1,
+    "id": "CoreUITest",
+    "networked": true,
+    "version": "0.0.12",
+    "permissions": {
+        "client": {
+            "construct": true,
+            "scene": true,
+            "input": true,
+            "camera": true,
+            "interface": true,
+            "networking": true,
+            "tween": true
+        },
+        "server": {
+            "construct": true,
+            "scene": true,
+            "networking": true
+        }
+    }
+}
